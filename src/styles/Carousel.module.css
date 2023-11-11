@@ -1,0 +1,56 @@
+/* Carousel.module.css */
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.75s ease-in-out;
+}
+
+.slide p{
+  padding-bottom: 20px;
+}
+
+.responsiveImage {
+  width: 100%;
+  max-width: 500px; /* Adjust the maximum width as needed */
+  height: auto;
+  border-radius: 20px;
+}
+
+.prevButton,
+.nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.prevButton {
+  left: 10px;
+}
+
+.nextButton {
+  right: 10px;
+}
+
+@media (max-width: 768px) {
+  .responsiveImage {
+    max-width: 100%;
+  }
+}

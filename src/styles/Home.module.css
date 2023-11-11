@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heroSection{
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px, 0px, 40px, 0px;
+    flex-flow: wrap;
+}
+
+.heroSectionContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.heroSectionContent{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-left: 30px;
+}
+
+.heroSectionContenth1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.heroSectionContent p{
+    font-size: 20px;
+}
+
+.heroSectionContentButton{
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #FF4387;
+    box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.heroItem{
+    width: 45%;
+}
+
+.heroSectionImageImg{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 400px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .heroSectionContainer {
+        flex-direction: column; /* Stack the divs vertically on smaller screens */
+        width: 100%;
+        margin: 0 auto;
+        gap: 20px;
+    
+    }
+    
+    .heroSectionImage {
+        width: 300px;
+    }    
+    .heroSectionImageImg{
+        width: 90%;
+        
+    }
+    .heroItem {
+      width: 90%; /* Make each div take the full width on smaller screens */
+      margin: 0 auto;
+    }
+
+}
+
+.whyUs{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.allCards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.first{
+    display: flex;
+    gap: 20px;
+}
+
+.last{
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .whyUs{
+        padding-top: 85px;
+    }
+    .first{
+        flex-direction: column;
+    }
+    .last{
+        flex-direction: column;
+    }
+}
+
+
+/* ////////////////////////////////////////// */
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 50px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.first2, .second2, .third2{
+    display: flex;
+    gap: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .cards{
+        flex-direction: column;
+        padding-top: 350px;
+    }
+    .first2, .second2, .third2{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+/* ////////////////////////////////////////////////// */
+
+.keyFeatures {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #FF4387;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.keyFeaturesh1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.keyFeatures ul{
+    list-style-type: none;
+}
+
+.keyFeaturesli{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.partnersSection {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.partnersSection h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.partnerLogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .partnerLogos{
+        flex-direction: column;
+    }
+}
+
+
+.partnerLogo {
+    margin: 10px;
+}
+
+.partnerLogoImg {
+    width: 150px; 
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.impactCreated{
+    background-color: #FF4387;
+    color: white;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    gap: 7%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        gap: 20px;
+    }
+    .line{
+        display: none;
+    }
+}
+
+
+.line{
+    height: 100px;
+    width: 1px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.meetLeaders{
+    padding-top: 20px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.meetLeadersh1{
+    text-align: center;
+    font-size: 35px;
+
+    margin-bottom: 10px;
+}

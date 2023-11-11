@@ -1,0 +1,30 @@
+.card{
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #7c73e6;
+    border-radius: 30px;
+}
+
+.headingDiv{
+    /* border-bottom: 1px solid black; */
+    height: 30%;
+    padding: 10px;
+}
+
+.separator{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.paraDiv{
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .card{
+        height: fit-content;
+        flex: 0 0 100%;
+    }
+}
