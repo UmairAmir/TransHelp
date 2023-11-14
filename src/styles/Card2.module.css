@@ -21,8 +21,8 @@
     font-size: 18px;
 }
 
-.iconDiv h1{
-    font-size: 40px;
+.iconDiv img{
+    width: 150px;
     padding-right: 20px;
     padding-left: 10px;
 }
@@ -34,5 +34,18 @@
         text-align: center;
         height: fit-content;
         flex: 0 0 100%;
+    }
+
+    .iconDiv {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .cardContent{
+        padding-bottom: 30px;
+    }
+
+    .cardContent h1{
+        padding-bottom: 15px;
     }
 }

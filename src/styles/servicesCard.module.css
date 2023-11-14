@@ -1,0 +1,30 @@
+/* Card.module.css */
+.card-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #FF4387;
+    border-radius: 10px;
+    background-color: #FFD9E1;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .card-icon {
+    color: #FF4387;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FF4387;
+  }
+  
+  .card-content {
+    font-size: 14px;
+    color: #333;
+  }
+  

@@ -1,29 +1,54 @@
 import Navbar from "../components/navbar";
 import styles from "../styles/Home.module.css"
-import hero from "../assets/hero.jpg"
-import Card from "../components/card.js"
+
+import VideoGallery from "../components/videoGallery";
 import Card2 from "../components/card2.js"
 import Footer from "../components/footer.js"
 import Carousel from "../components/Carousel.js"
 import diversity from "../assets/diversity.png"
 import partner1 from "../assets/partner1.png"
-import man1 from "../assets/man1.jpg"
-import man2 from "../assets/man2.jpg"
+
+import inclusive from "../assets/inclusive.png"
+import confiedentiality from "../assets/confiedentiality.png"
+import convient from "../assets/convient.png"
+import empowring from "../assets/empowring.png"
+import expertdoctor from "../assets/expertdoctor.png"
+import multilingual from "../assets/multilingual.png"
+
+import founder from "../assets/founder.jpg"
+import developer from "../assets/developementLead.jpg"
+import communityLead from "../assets/communityLead.jpg"
+import cyberLead from "../assets/cyberLead.jpg"
+import mlengineer from "../assets/mlengineer.jpg"
 
 
 const Home = () => {
-  const currentYear = new Date().getFullYear();
 
   const slides = [
     {
-      heading: 'This industry',
-      paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      image: 'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      heading: 'Mohsin Khan',
+      paragraph: 'Founder',
+      image: founder,
     },
     {
-      heading: 'That industry',
-      paragraph: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      image: 'https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      heading: 'Hazeefa khan',
+      paragraph: 'Community Lead',
+      image: communityLead,
+    },
+    {
+      heading: 'Babar Khan',
+      paragraph: 'Cyber Security Lead',
+      image: cyberLead,
+    },
+    {
+      heading: 'Umar Farooq',
+      paragraph: 'ML & Data Engineer',
+      image: mlengineer,
+    },
+    {
+      heading: 'Muhammed Haseeb',
+      paragraph: 'Development Lead',
+      image: developer,
     },
     // Add more slides as needed
   ];
@@ -31,7 +56,6 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      
       <div className={styles.heroSection}>
         <div className={styles.heroSectionContainer}>
           <div className={`${styles.heroSectionContent} ${styles.heroItem}`}>
@@ -47,21 +71,29 @@ const Home = () => {
         </div>
       </div>
 
-
       <section className={styles.whyUs}>
         <h1 className={styles.whyUsh1}>Our telehealth app connects individuals with trusted doctors, psychologists, and lawyers through convenient online consultations.</h1>
         <div className={styles.cards}>
           <div className={styles.first2}>
-            <Card2 heading="Inclusive Care for Marginalized Communities" para="We understand the unique challenges and needs of transgender individuals, women, and those living with HIV/AIDS/STIs. Our team of experienced and culturally sensitive healthcare providers, mental health professionals, and legal experts are here to support you on your journey to wellness." icon="globe"/>
-            <Card2 heading="Convenient Online Consultations" para="Say goodbye to long wait times and travel hassles. TransHelp offers secure and user-friendly online consultations, allowing you to access the care you need from the comfort and privacy of your own home. Our telehealth platform is accessible through computers, smartphones, and tablets, making healthcare, mental health support, and legal guidance just a few clicks away." icon="dot"/>
+            <Card2 heading="Inclusive Care for Marginalized Communities" 
+                  para="We understand the unique challenges and needs of transgender individuals, women, and those living with HIV/AIDS/STIs. Our team of experienced and culturally sensitive healthcare providers, mental health professionals, and legal experts are here to support you on your journey to wellness." 
+                  icon={inclusive}/>
+            <Card2 heading="Convenient Online Consultations" 
+                  para="Say goodbye to long wait times and travel hassles. TransHelp offers secure and user-friendly online consultations, allowing you to access the care you need from the comfort and privacy of your own home. Our telehealth platform is accessible through computers, smartphones, and tablets, making healthcare, mental health support, and legal guidance just a few clicks away." 
+                  icon={convient}/>
           </div>
           <div className={styles.second2}>
-            <Card2 heading="Expert Doctors, Psychologists, and Lawyers" para="We understand the unique challenges and needs of transgender individuals, women, and those living with HIV/AIDS/STIs. Our team of experienced and culturally sensitive healthcare providers, mental health professionals, and legal experts are here to support you on your journey to wellness." icon="doctor"/>
-            <Card2 heading="Confidentiality and Privacy" para="Your privacy is of utmost importance to us. TransHelp employs stringent security measures to protect your personal information and ensure all consultations are confidential. Our platform utilizes encrypted communication channels, safeguarding your privacy throughout the entire process." icon="shield"/>
+            <Card2 heading="Expert Doctors, Psychologists, and Lawyers" para="We understand the unique challenges and needs of transgender individuals, women, and those living with HIV/AIDS/STIs. Our team of experienced and culturally sensitive healthcare providers, mental health professionals, and legal experts are here to support you on your journey to wellness." 
+                  icon={expertdoctor}/>
+            <Card2 heading="Confidentiality and Privacy" 
+                  para="Your privacy is of utmost importance to us. TransHelp employs stringent security measures to protect your personal information and ensure all consultations are confidential. Our platform utilizes encrypted communication channels, safeguarding your privacy throughout the entire process." 
+                  icon={confiedentiality}/>
           </div>
           <div className={styles.third2}>
-            <Card2 heading="Empowering Resources and Education" para="TransHelp is more than just a telehealth app. We are dedicated to empowering our users with knowledge and resources. We offer a wealth of educational materials, articles, and frequently asked questions, providing you with the information you need to make informed decisions about your sexual health, mental well-being, and legal matters." icon="book"/>
-            <Card2 heading="Multilingual Support" para="We value diversity and understand that language and cultural barriers can affect access to care. That's why TransHelp provides culturally competent support and offers multilingual services to cater to our diverse community. We strive to ensure that language is never a barrier to receiving the care you deserve." icon="puzzle"/>
+            <Card2 heading="Empowering Resources and Education" para="TransHelp is more than just a telehealth app. We are dedicated to empowering our users with knowledge and resources. We offer a wealth of educational materials, articles, and frequently asked questions, providing you with the information you need to make informed decisions about your sexual health, mental well-being, and legal matters." 
+                  icon={empowring}/>
+            <Card2 heading="Multilingual Support" para="We value diversity and understand that language and cultural barriers can affect access to care. That's why TransHelp provides culturally competent support and offers multilingual services to cater to our diverse community. We strive to ensure that language is never a barrier to receiving the care you deserve." 
+                  icon={multilingual}/>
           </div>
         </div>
       </section>
@@ -84,6 +116,12 @@ const Home = () => {
             <li className={styles.keyFeaturesli}>&rarr; 24/7 Access</li>
           </ul>
         </div>
+      </section>
+
+
+      <section className={styles.videos}>
+        <VideoGallery />
+
       </section>
 
       <section className={styles.partnersSection}>
@@ -125,9 +163,9 @@ const Home = () => {
 
     </section>
 
-
-    <Footer />
-    <h3 style={{textAlign: 'center', color: 'white', backgroundColor: '#FF4387'}}>TransHelp &copy; {currentYear}</h3>
+    <footer id="footer">
+      <Footer />
+    </footer>
     </>
   )
 };

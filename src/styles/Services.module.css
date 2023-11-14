@@ -1,3 +1,48 @@
-.test{
-    color: red;
+.dropdown{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
+
+.dropdown h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.dropdown p {
+    font-size: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.allCards{
+    margin-bottom: 100px;
+}
+
+.first2, .second2, .third2{
+    display: flex;
+    justify-content: center;
+}
+
+.third2{
+    width: 61%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .first2, .second2, .third2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .third2{
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,40 @@
+/* MyComponent.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropdown-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .select-dropdown {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 2px solid #FF4387;
+    border-radius: 5px;
+    background-color: #FFD9E1;
+    color: #FF4387;
+  }
+  
+  .find-now-button {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FF4387;
+    border-radius: 5px;
+    background-color: #FF4387;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+@media screen and (max-width: 768px) {
+    .dropdown-row{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+}

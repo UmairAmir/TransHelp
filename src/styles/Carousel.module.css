@@ -24,6 +24,7 @@
   width: 100%;
   max-width: 500px; /* Adjust the maximum width as needed */
   height: auto;
+  max-height: 500px;
   border-radius: 20px;
 }
 
