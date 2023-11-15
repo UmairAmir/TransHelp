@@ -3,14 +3,22 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const SocialMediaIcons = () => {
   return (
-    <div style={{display: 'flex', cursor: 'pointer'}}>
+    <div style={{ display: 'flex', cursor: 'pointer' }}>
       <div>
-        <FaFacebook size={30} style={{ margin: '0 10px' }} />
-        <FaTwitter size={30} style={{ margin: '0 10px' }} />
+        <a href="https://www.facebook.com/TransHelp.pk/" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
+          <FaFacebook size={30} style={{ margin: '0 10px' }} />
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
+          <FaTwitter size={30} style={{ margin: '0 10px' }} />
+        </a>
       </div>
       <div>
-        <FaInstagram size={30} style={{ margin: '0 10px' }} />
-        <FaLinkedin size={30} style={{ margin: '0 10px' }} />
+        <a href="https://www.instagram.com/transhelp.pk/" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
+          <FaInstagram size={30} style={{ margin: '0 10px' }} />
+        </a>
+        <a href="https://www.linkedin.com/company/96035146/admin/feed/posts/" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
+          <FaLinkedin size={30} style={{ margin: '0 10px' }} />
+        </a>
       </div>
     </div>
   );

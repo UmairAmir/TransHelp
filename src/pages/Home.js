@@ -6,7 +6,6 @@ import Card2 from "../components/card2.js"
 import Footer from "../components/footer.js"
 import Carousel from "../components/Carousel.js"
 import diversity from "../assets/diversity.png"
-import partner1 from "../assets/partner1.png"
 
 import inclusive from "../assets/inclusive.png"
 import confiedentiality from "../assets/confiedentiality.png"
@@ -20,6 +19,7 @@ import developer from "../assets/developementLead.jpg"
 import communityLead from "../assets/communityLead.jpg"
 import cyberLead from "../assets/cyberLead.jpg"
 import mlengineer from "../assets/mlengineer.jpg"
+import partners from "../assets/partners.png"
 
 
 const Home = () => {
@@ -126,33 +126,34 @@ const Home = () => {
 
       <section className={styles.partnersSection}>
         <h1>Our Trusted Partners</h1>
-        <div className={styles.partnerLogos}>
-            <div className={styles.partnerLogo}><img src={partner1} className={styles.partnerLogoImg} alt="Partner 1"/></div>
-            <div className={styles.partnerLogo}><img src={partner1} className={styles.partnerLogoImg} alt="Partner 2"/></div>
-            <div className={styles.partnerLogo}><img src={partner1} className={styles.partnerLogoImg} alt="Partner 3"/></div>
-        </div>
+        <img src={partners} alt="partners" />
       </section>
 
       <section className={styles.impactCreated}>
       <div className={styles.wrapper}>
         <div className={styles.impactContent}>
-          <h1>Lives Saved</h1>
-          <h2>1234</h2>
+          <h1>21+</h1>
+          <h2>HR Educational Projects</h2>
         </div>
         <div className={styles.line}></div>
         <div className={styles.impactContent}>
-          <h1>Lives Saved</h1>
-          <h2>1234</h2>
+          <h1>3500+</h1>
+          <h2>E-Health Consultations</h2>
         </div>
         <div className={styles.line}></div>
         <div className={styles.impactContent}>
-          <h1>Lives Saved</h1>
-          <h2>1234</h2>
+          <h1>150+</h1>
+          <h2>TransHelp Ambassadors</h2>
         </div>
         <div className={styles.line}></div>
         <div className={styles.impactContent}>
-          <h1>Lives Saved</h1>
-          <h2>1234</h2>
+          <h1>10,000,000</h1>
+          <h2>Mass Media Viewers</h2>
+        </div>
+        <div className={styles.line}></div>
+        <div className={styles.impactContent}>
+          <h1>4</h1>
+          <h2>Academic Partnership</h2>
         </div>
       </div>
     </section>

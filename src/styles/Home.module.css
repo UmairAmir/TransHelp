@@ -91,6 +91,8 @@
     text-align: center;
     margin-top: 40px;
     font-size: 35px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .cards{
@@ -153,21 +155,21 @@
 }
 
 .partnersSection {
-    text-align: center;
     padding: 40px;
     background-color: white;
+    text-align: center;
+
 }
 
 .partnersSection h1{
+    text-align: center;
     font-size: 35px;
     margin-bottom: 20px;
 }
 
-.partnerLogos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
+.partnersSection img {
+    width: 100%;
+    max-width: 1000px;
 }
 
 @media screen and (max-width: 768px) {
@@ -177,15 +179,6 @@
 }
 
 
-.partnerLogo {
-    margin: 10px;
-}
-
-.partnerLogoImg {
-    width: 150px; 
-    height: auto;
-    border-radius: 50%;
-}
 
 
 .impactCreated{
@@ -240,5 +233,5 @@
 }
 
 .videos{
-    background-color: #FF4387;
+    background-color: white;
 }
