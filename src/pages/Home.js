@@ -98,26 +98,6 @@ const Home = () => {
         </div>
       </section>
 
-      <section className={styles.keyFeatures}>
-        <div>
-          <h3>Health, Legal, and Community at Your Fingertips:</h3>
-          <h1 className={styles.keyFeaturesh1}>TransHelp - Your All-in-One Solution</h1>
-          <ul>
-            <li className={styles.keyFeaturesli}>&rarr; Sexual Health Consultations</li>
-            <li className={styles.keyFeaturesli}>&rarr; Mental Health Support</li>
-            <li className={styles.keyFeaturesli}>&rarr; Legal Assistance</li>
-            <li className={styles.keyFeaturesli}>&rarr; AI Chatbot</li>
-            <li className={styles.keyFeaturesli}>&rarr; SOS Services (Health & Safety)</li>
-            <li className={styles.keyFeaturesli}>&rarr; Awareness Resources</li>
-            <li className={styles.keyFeaturesli}>&rarr; Secure and Confidential</li>
-            <li className={styles.keyFeaturesli}>&rarr; Appointment Reminders and Notifications</li>
-            <li className={styles.keyFeaturesli}>&rarr; Community Support and Engagement</li>
-            <li className={styles.keyFeaturesli}>&rarr; Multilingual Support</li>
-            <li className={styles.keyFeaturesli}>&rarr; 24/7 Access</li>
-          </ul>
-        </div>
-      </section>
-
 
       <section className={styles.videos}>
         <VideoGallery />

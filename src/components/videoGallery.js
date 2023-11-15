@@ -8,10 +8,13 @@ const VideoGallery = () => {
     'https://www.youtube.com/watch?v=cgjD3dYFbhk',
     'https://www.youtube.com/watch?v=2SUYY98kzYQ',
     'https://www.youtube.com/watch?v=yKFkgSO6o-g',
+    'https://www.youtube.com/watch?v=q3f-7n-BLXE',
+    'https://www.youtube.com/watch?v=BTXJ_jyWAzg', 
+    'https://www.youtube.com/watch?v=_E-5ci8v1wE'
   ];
 
   const videosPerPage = 3;
-  const videoTimerDuration = 10000; // 5 seconds
+  const videoTimerDuration = 10000;
   const videoContainerRef = useRef(null);
 
   const [startIndex, setStartIndex] = useState(0);
@@ -35,7 +38,7 @@ const VideoGallery = () => {
       <div className={styles['main-video-container']}>
         <iframe
           title="Main Video"
-          src={`https://www.youtube.com/embed/${extractVideoId(videoList[startIndex])}`}
+          src={`https://www.youtube.com/embed/${extractVideoId(videoList[0])}`}
           frameBorder="0"
           allowFullScreen
         ></iframe>

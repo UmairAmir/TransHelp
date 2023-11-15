@@ -49,3 +49,11 @@
         padding-bottom: 15px;
     }
 }
+
+.cardContent p {
+    font-size: 16px;
+    color: #3a3c3d;
+    margin-top: 7px;
+    padding-right: 10px;
+    text-align: justify;
+}

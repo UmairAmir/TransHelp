@@ -235,3 +235,13 @@
 .videos{
     background-color: white;
 }
+
+.whyUsh1  {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    line-height: 55px;
+    text-transform: capitalize;
+    letter-spacing: 0.px;
+}

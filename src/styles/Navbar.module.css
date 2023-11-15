@@ -93,4 +93,8 @@
         border-radius: 20px;
         border: none;
     }
+
+    .logo img{
+        width: 200px;
+    }
 }
