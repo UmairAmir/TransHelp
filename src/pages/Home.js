@@ -113,7 +113,7 @@ const Home = () => {
       <div className={styles.wrapper}>
         <div className={styles.impactContent}>
           <h1>21+</h1>
-          <h2>HR Educational Projects</h2>
+          <h2>Educational Projects</h2>
         </div>
         <div className={styles.line}></div>
         <div className={styles.impactContent}>

@@ -16,23 +16,23 @@ function Footer() {
     return (
       <div className={styles.footer}>
         <div className={styles.left}>
-        <div className={styles.main}>
-            <h1 className={styles.h1}>TransHelp</h1>
-            <button className={styles.button}>Download App</button> 
-        </div>
+          <div className={styles.main}>
+              <h1 className={styles.h1}>TransHelp</h1>
+              <button className={styles.button}>Download App</button> 
+          </div>
 
-        <ul className={styles.navlinks}>
-            <li className={styles.links}>
-                <Link to="/" className={styles.a}>Home</Link>
-            </li>
-            <li className={styles.links}>
-                <Link to="/services" className={styles.a}>Services</Link>
-            </li>
-            <li className={styles.links}>
-                <Link to="/contact" className={styles.a} onClick={scrollToFooter}>Contact</Link>
-            </li>
-            
-        </ul>
+          <ul className={styles.navlinks}>
+              <li className={styles.links}>
+                  <Link to="/" className={styles.a}>Home</Link>
+              </li>
+              <li className={styles.links}>
+                  <Link to="/services" className={styles.a}>Services</Link>
+              </li>
+              <li className={styles.links}>
+                  <Link to="/contact" className={styles.a} onClick={scrollToFooter}>Contact</Link>
+              </li>
+              
+          </ul>
 
         </div>
 

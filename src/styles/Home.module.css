@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .heroSection{
     height: 500px;
     background-color: white;
@@ -81,10 +83,19 @@
       width: 90%; /* Make each div take the full width on smaller screens */
       margin: 0 auto;
     }
-
+    
 }
 
 
+.whyUsh1  {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    line-height: 55px;
+    text-transform: capitalize;
+    letter-spacing: 0.px;
+}
 
 /* ////////////////////////////////////////// */
 .whyUsh1{
@@ -122,7 +133,10 @@
     }
 
     .whyUsh1{
-        margin-top: 450px;
+        padding-top: 450px;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 25px;
     }
 }
 
@@ -187,9 +201,16 @@
     text-align: center;
 }
 
+.impactContent h2 {
+    font-size: 18px;
+    max-height: 44px; /* 2 lines with 22px line height */
+
+  }
+
+
 .wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     min-height: 300px;
     gap: 7%;
@@ -236,12 +257,3 @@
     background-color: white;
 }
 
-.whyUsh1  {
-    font-size: 35px;
-    margin: 0 auto;
-    text-align: center;
-    width: 50%;
-    line-height: 55px;
-    text-transform: capitalize;
-    letter-spacing: 0.px;
-}
