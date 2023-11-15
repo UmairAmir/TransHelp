@@ -38,7 +38,8 @@ function Footer() {
 
         <div className={styles.address}>
           <h1>Address</h1>
-          <p>Lorem ipsum sdfa sdf asdf sdfsdfsdfsdf sdfasdfsd dsfadf sdfsfasdf</p>
+          <p>Unite 122, Iconic Arcade, FMC, B-17, Islamabad, Pakistan 44500</p>
+          <p>transhelp.pk@gmail.com</p>
           <SocialMediaIcons />
 
         </div>
