@@ -205,15 +205,15 @@
     font-size: 18px;
     max-height: 44px; /* 2 lines with 22px line height */
 
-  }
+}
 
 
 .wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 300px;
-    gap: 7%;
+    gap: 20px;
     width: 90%;
     margin: 0 auto;
 }
